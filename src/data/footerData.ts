@@ -2,21 +2,16 @@ export const footerData = {
   currentYear: new Date().getFullYear(),
   socialLinks: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/johndoe',
-      icon: 'Github'
-    },
-    {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/johndoe/',
+      url: 'https://www.linkedin.com/in/donald-t-woodward-5b31a253/',
       icon: 'Linkedin'
     },
     {
       name: 'Email',
-      url: 'mailto:johndoe@example.com',
+      url: 'mailto:donald.w.core@gmail.com',
       icon: 'Mail'
     }
   ],
-  quote: '"Code is like humor. When you have to explain it, it’s bad."',
+  quote: '"Scalable systems, secure by design, with performance you can feel."',
   githubCodeLink: 'https://github.com/raulrls/Astro-Shadcn-portfolio'
 };

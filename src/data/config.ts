@@ -1,12 +1,12 @@
 export const config = {
-  siteTitle: 'John Doe Portfolio',
-  description: 'Hi, I am John Doe, a passionate web developer and data analyst. I thrive on solving problems and building innovative solutions with modern technology.',
-  author: 'John Doe',
-  contactEmail: 'johndoe@example.com',
-  keywords: 'portfolio, business intelligence, data analysis, Power BI Reports, Software Engineer, Web Developer',
+  siteTitle: 'Donald Woodward | Senior Full-Stack Engineer',
+  description: 'Senior Software Engineer and Architect with 10+ years building scalable full-stack systems across Real Estate, E-commerce, HealthTech, and Education. Deep expertise in React/Next.js, Angular, React Native, Node.js, Python, Ruby on Rails, Kafka, Spark, and Kubernetes.',
+  author: 'Donald Woodward',
+  contactEmail: 'donald.w.core@gmail.com',
+  keywords: 'Senior Software Engineer, Full-Stack, React, Next.js, React Native, Node.js, Python, Ruby on Rails, Kafka, Spark, Kubernetes, AWS, Architect, Portfolio',
   favicon: '/favicon.svg',
   social: {
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    github: 'https://github.com/johndoe'
+    linkedin: 'https://www.linkedin.com/in/donald-t-woodward-5b31a253/',
+    github: 'https://github.com/donald'
   }
 };

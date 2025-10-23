@@ -25,11 +25,11 @@ const Footer = () => {
           <p>
             <i>{footerData.quote}</i>
           </p>
-          <div className="flex gap-4 font-semibold">
+          {/* <div className="flex gap-4 font-semibold">
             <a href={footerData.githubCodeLink} className="hover:text-primary">
               Check out the code on Github
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

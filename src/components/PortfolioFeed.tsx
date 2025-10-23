@@ -6,7 +6,7 @@ import { ChevronDown, ChevronLeft, ChevronRight, ChevronUp } from 'lucide-react'
 import { cn } from '@/lib/utils';
 import { useEffect } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
-import { projects } from '@/data/portfolioData'; // Importing the projects data
+import { projects, type Project } from '@/data/portfolioData'; // Importing the projects data
 
 const ProjectCarousel = ({ images }: { images: string[] }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
@@ -35,11 +35,11 @@ const ProjectCarousel = ({ images }: { images: string[] }) => {
           <div className="flex">
             {images.map((image, index) => (
               <div className="relative flex-[0_0_100%]" key={index}>
-                <div className="aspect-video">
+                <div className="aspect-video bg-muted/40">
                   <img
                     src={image}
                     alt={`Slide ${index + 1}`}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-contain"
                   />
                 </div>
               </div>
@@ -85,11 +85,11 @@ const ProjectCarousel = ({ images }: { images: string[] }) => {
             )}
             onClick={() => emblaApi?.scrollTo(index)}
           >
-            <div className="aspect-video w-[100px]">
+            <div className="aspect-video w-[100px] bg-muted/40">
               <img
                 src={image}
                 alt={`Thumbnail ${index + 1}`}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-contain"
               />
             </div>
           </button>
@@ -115,7 +115,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           
           <div className="flex flex-wrap gap-2">
             {project.tags.map((tag) => (
-              <Badge key={tag} variant="secondary">
+              <Badge key={tag} variant="secondary" className="text-sm px-3 py-1.5">
                 {tag}
               </Badge>
             ))}
@@ -162,11 +162,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
           >
             {isExpanded ? (
               <>
-                <ChevronUp className="mr-2 h-4 w-4" /> Show Less
+                <ChevronUp className="mr-2 h-4 w-4" /> Collapse
               </>
             ) : (
               <>
-                <ChevronDown className="mr-2 h-4 w-4" /> See More
+                <ChevronDown className="mr-2 h-4 w-4" /> See Challenges
               </>
             )}
           </Button>
@@ -181,7 +181,7 @@ const PortfolioFeed = () => {
     <section className="relative z-10 min-h-screen bg-background/95 px-4 py-24 backdrop-blur-sm">
       <div className="mx-auto max-w-3xl">
         <h2 className="mb-12 text-center text-4xl font-bold tracking-tight">
-          Side Projects
+          My Projects
         </h2>
         
         <div className="space-y-8">
