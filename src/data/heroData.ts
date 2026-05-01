@@ -1,7 +1,7 @@
 export const heroData = {
   name: 'Donald Woodward',
   title: 'Senior Full-Stack Engineer | Tech Lead | Frontend & Backend Architect | Distributed Systems',
-  description: 'Senior Full-Stack Engineer and Tech Lead with 10+ years of experience designing and scaling distributed systems across Fintech, HealthTech, E-commerce, and Real Estate. Expert in React, Next.js, React Native, Node.js, Python, and Ruby on Rails, with deep experience in GraphQL, Kafka, and cloud-native architectures on AWS. Recently focused on AI-powered platforms, building LLM-driven applications (GPT-4, RAG systems) for financial automation, document processing, and intelligent user experiences. Proven track record of delivering high-performance, secure, and compliant systems at scale.'
+  description: 'Senior Full-Stack Engineer and Tech Lead with 10+ years of experience designing and scaling distributed systems across Fintech, HealthTech, E-commerce, and Real Estate. Expert in React, Next.js, React Native, Node.js, Python, and Ruby on Rails, with deep experience in GraphQL, Kafka, and cloud-native architectures on AWS. Recently focused on AI-powered platforms, building LLM-driven applications (GPT-4, RAG systems) for financial automation, document processing, and intelligent user experiences. Proven track record of delivering high-performance, secure, and compliant systems at scale.',
   profilePicture: 'https://example.com/profilepic.jpg',
   skills: [
     // Languages
