@@ -3,7 +3,7 @@ export const footerData = {
   socialLinks: [
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/donald-t-woodward-5b31a253/',
+      url: 'https://www.linkedin.com/in/donaldwoodward',
       icon: 'Linkedin'
     },
     {
@@ -12,6 +12,4 @@ export const footerData = {
       icon: 'Mail'
     }
   ],
-  quote: '"Scalable systems, secure by design, with performance you can feel."',
-  githubCodeLink: 'https://github.com/raulrls/Astro-Shadcn-portfolio'
 };
