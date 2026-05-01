@@ -70,7 +70,7 @@ export const heroData = {
   ],
   contact: {
     github: 'https://github.com/fashionStar324',
-    linkedin: 'https://www.linkedin.com/in/donald-t-woodward-5b31a253/',
+    linkedin: 'https://www.linkedin.com/in/donaldwoodward',
     email: 'donald.w.core@gmail.com'
   }
 };
