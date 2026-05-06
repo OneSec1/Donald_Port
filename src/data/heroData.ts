@@ -8,6 +8,7 @@ export const heroData = {
     'JavaScript',
     'TypeScript',
     'Python',
+    'PHP',
     'Ruby',
 
     // Frontend
@@ -15,6 +16,7 @@ export const heroData = {
     'Next.js',
     'React Native',
     'Angular',
+    'Vue.js',
     'Tailwind CSS',
     'Material UI',
     'Ant Design',
