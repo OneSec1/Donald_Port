@@ -25,6 +25,7 @@ export const heroData = {
     'Node.js',
     'NestJS',
     'Express',
+    'Laravel',
     'FastAPI',
     'Django',
     'Flask',
